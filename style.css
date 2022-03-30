@@ -1,0 +1,118 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url('falcon.jpg');
+	background-size: cover;
+	background-position: center;
+	font-family: arial;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	background-color: #ffff;
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+header h2{
+	color: #fff;
+}
+.container {
+	width: 900px;
+	display: flex;
+	flex-direction: column;
+}
+h1 {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	font-size: 35px;
+}
+h2 {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	font-size: 18px;
+	color: #000;
+}
+header p {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+section	{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+#background {
+	background-image: url('haneamigos.png');
+	background-size: cover;
+	background-position:center ;
+}
+.first-content {
+	width: 360px;
+	height: auto;
+	border:0.5px solid #fff;
+	border-radius: 5px;	
+	display: flex;
+	margin: auto;
+	color: #ffff;
+}
+.first-content img {
+	margin: 5px;
+	border-radius: 5px;
+}
+.legenda-img {
+	font-size: 12px;
+	text-align: center;
+	padding-bottom: 5px;
+	font-weight: bold;}
+	.middle_content img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 5px;
+	}
+
+.content {
+	color: #000000;
+	font: bold;
+}
+.content p {
+	font-size: 15px;
+	text-align: justify;
+}
+
+.final-content {
+	display: flex;
+	justify-content: space-between;
+	color: #000;
+}
+.final-content p {
+	padding-right: 30px;
+
+}
+.final-content img {
+	margin-top: 15px;
+	border-radius: 5px;
+}
+footer {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	border-top: 1px solid #fff;
+}
+.rodape {
+	display: flex;
+	margin: auto;
+	text-align: center;
+	color: rgb(66, 65, 65);
+	font-size:10px;
+}
+.rodape a {
+	text-decoration: none;
+	padding-left: 2px;
+	color: rgb(238, 228, 228);
+	font-weight: bold;
+}
